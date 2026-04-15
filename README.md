@@ -1,50 +1,138 @@
-# Welcome to your Expo app 👋
+# 🌡️ Conversor de Escalas Celsius vs Fahrenheit
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+> **Avaliação Formadora 2 — Prof. Artur**
 
-## Get started
+![React Native](https://img.shields.io/badge/React_Native-Expo-blue?style=for-the-badge&logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript)
+![Platform](https://img.shields.io/badge/Platform-iOS%20%7C%20Android%20%7C%20Web-green?style=for-the-badge)
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 📱 Sobre o Projeto
 
-2. Start the app
+Aplicativo mobile e web desenvolvido em **React Native com Expo** para conversão de temperaturas entre as escalas **Celsius** e **Fahrenheit**, com visualização em gauges estilo **Manifold** de ar condicionado, inspirado em instrumentos reais de refrigeração.
 
-   ```bash
-   npx expo start
-   ```
+Desenvolvido como parte da **Avaliação Formadora 2** da disciplina de Desenvolvimento Mobile, sob orientação do **Prof. Artur**.
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🎯 Funcionalidades
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- 🔴 **Gauge Vermelho** — Converte Fahrenheit → Celsius (escala de alta pressão)
+- 🔵 **Gauge Azul** — Converte Celsius → Fahrenheit (escala de baixa pressão)
+- 📊 Gauges estilo **Manifold 3D** com 4 anéis de escala concêntricos (PSI, kPa, bar, °C)
+- 🎚️ Slider interativo para ajuste de valores
+- ⌨️ Input numérico direto
+- 📱 Layout **responsivo**: lado a lado em desktop/tablet, empilhado em mobile
+- 🌐 Funciona em **iOS, Android e Web**
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## 🛠️ Tecnologias Utilizadas
+
+| Tecnologia | Versão |
+|---|---|
+| React Native | 0.76+ |
+| Expo | ~52.0 |
+| TypeScript | 5.x |
+| react-native-svg | 15.x |
+| @react-native-community/slider | 4.x |
+| Expo Router | 4.x |
+
+---
+
+## 🚀 Como Executar
+
+### Pré-requisitos
+- Node.js 18+
+- npm ou yarn
+- Expo CLI
+
+### Instalação
 
 ```bash
-npm run reset-project
+# Clone o repositório
+git clone https://github.com/SEU_USUARIO/TemperatureConverter.git
+
+# Entre na pasta
+cd TemperatureConverter
+
+# Instale as dependências
+npm install
+
+# Instale dependências nativas
+npx expo install react-native-svg @react-native-community/slider
+
+# Inicie o projeto
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### Executar no browser
+```bash
+npx expo start --web
+```
 
-## Learn more
+### Executar no celular
+Instale o app **Expo Go** no celular e escaneie o QR Code gerado no terminal.
 
-To learn more about developing your project with Expo, look at the following resources:
+---
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 📁 Estrutura do Projeto
 
-## Join the community
+TemperatureConverter/
+├── app/
+│   ├── (tabs)/
+│   │   ├── _layout.tsx       # Layout das tabs
+│   │   └── index.tsx         # Tela principal — Gauges + Conversão
+│   └── _layout.tsx           # Layout raiz
+├── assets/
+│   └── logo.png              # Logo do app
+├── README.md
+└── package.json
 
-Join our community of developers creating universal apps.
+---
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 📐 Escalas dos Gauges
+
+### 🔵 Gauge Azul — Baixa Pressão (Celsius → Fahrenheit)
+| Anel | Escala | Mín | Máx |
+|---|---|---|---|
+| 1 | PSI | 0 | 160 |
+| 2 | kPa | 0 | 1100 |
+| 3 | bar | 0 | 11 |
+| 4 | °C | -40 | 20 |
+
+### 🔴 Gauge Vermelho — Alta Pressão (Fahrenheit → Celsius)
+| Anel | Escala | Mín | Máx |
+|---|---|---|---|
+| 1 | PSI | 0 | 500 |
+| 2 | kPa | 0 | 3500 |
+| 3 | bar | 0 | 35 |
+| 4 | °C | 20 | 80 |
+
+---
+
+## 👨‍💻 Desenvolvido por
+
+**[SEU NOME]**
+- GitHub: [@SEU_USUARIO](https://github.com/SEU_USUARIO)
+
+---
+
+## 📚 Avaliação Formadora 2 — Prof. Artur
+
+Este projeto foi desenvolvido como avaliação prática da disciplina de **Desenvolvimento de Aplicativos Mobile**, demonstrando:
+
+- ✅ Desenvolvimento com React Native + Expo
+- ✅ Uso de TypeScript
+- ✅ Componentização e reutilização de código
+- ✅ Responsividade multiplataforma (iOS, Android, Web)
+- ✅ Manipulação de SVG para gráficos customizados
+- ✅ Gerenciamento de estado com React Hooks
+- ✅ Navegação com Expo Router
+
+---
+
+## 📄 Licença
+
+MIT License — livre para uso educacional.
