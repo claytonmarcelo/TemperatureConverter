@@ -79,16 +79,18 @@ Instale o app **Expo Go** no celular e escaneie o QR Code gerado no terminal.
 
 ## 📁 Estrutura do Projeto
 
+```
 TemperatureConverter/
 ├── app/
 │   ├── (tabs)/
-│   │   ├── _layout.tsx       # Layout das tabs
-│   │   └── index.tsx         # Tela principal — Gauges + Conversão
-│   └── _layout.tsx           # Layout raiz
+│   │   └── _layout.tsx
+│   ├── index.tsx
+│   └── _layout.tsx
 ├── assets/
-│   └── logo.png              # Logo do app
+│   └── logo.png
 ├── README.md
 └── package.json
+```
 
 ---
 
@@ -112,9 +114,9 @@ TemperatureConverter/
 
 ---
 
-## 👨‍💻 Desenvolvidores por grupo Ovelhas negras
+## 👨‍💻 Desenvolvido por Ovelhas Negras
 
-**[Clayton Marcelo/ Caio/ Victor]**
+**[Clayton/ Caio/ Victor]**
 - GitHub: [@SEU_USUARIO](https://github.com/claytonmarcelo)
 
 ---
