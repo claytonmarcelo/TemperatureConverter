@@ -8,6 +8,12 @@
 
 ---
 
+## 📸 Screenshot
+
+![Desktop](https://raw.githubusercontent.com/claytonmarcelo/TemperatureConverter/main/assets/images/desktop.png)
+
+---
+
 ## 📱 Sobre o Projeto
 
 Aplicativo mobile e web desenvolvido em **React Native com Expo** para conversão de temperaturas entre as escalas **Celsius** e **Fahrenheit**, com visualização em gauges estilo **Manifold** de ar condicionado, inspirado em instrumentos reais de refrigeração.
@@ -18,8 +24,8 @@ Desenvolvido como parte da **Avaliação Formadora 2** da disciplina de Desenvol
 
 ## 🎯 Funcionalidades
 
-- 🔴 **Gauge Vermelho** — Converte Fahrenheit → Celsius (escala de alta pressão)
-- 🔵 **Gauge Azul** — Converte Celsius → Fahrenheit (escala de baixa pressão)
+- 🔴 **Gauge Vermelho** — Converte Fahrenheit para Celsius (escala de alta pressão)
+- 🔵 **Gauge Azul** — Converte Celsius para Fahrenheit (escala de baixa pressão)
 - 📊 Gauges estilo **Manifold 3D** com 4 anéis de escala concêntricos (PSI, kPa, bar, °C)
 - 🎚️ Slider interativo para ajuste de valores
 - ⌨️ Input numérico direto
@@ -44,6 +50,7 @@ Desenvolvido como parte da **Avaliação Formadora 2** da disciplina de Desenvol
 ## 🚀 Como Executar
 
 ### Pré-requisitos
+
 - Node.js 18+
 - npm ou yarn
 - Expo CLI
@@ -96,7 +103,8 @@ TemperatureConverter/
 
 ## 📐 Escalas dos Gauges
 
-### 🔵 Gauge Azul — Baixa Pressão (Celsius → Fahrenheit)
+### 🔵 Gauge Azul — Baixa Pressão (Celsius para Fahrenheit)
+
 | Anel | Escala | Mín | Máx |
 |---|---|---|---|
 | 1 | PSI | 0 | 160 |
@@ -104,7 +112,8 @@ TemperatureConverter/
 | 3 | bar | 0 | 11 |
 | 4 | °C | -40 | 20 |
 
-### 🔴 Gauge Vermelho — Alta Pressão (Fahrenheit → Celsius)
+### 🔴 Gauge Vermelho — Alta Pressão (Fahrenheit para Celsius)
+
 | Anel | Escala | Mín | Máx |
 |---|---|---|---|
 | 1 | PSI | 0 | 500 |
@@ -116,8 +125,9 @@ TemperatureConverter/
 
 ## 👨‍💻 Desenvolvido por Ovelhas Negras
 
-**[Clayton/ Caio/ Victor]**
-- GitHub: [@SEU_USUARIO](https://github.com/claytonmarcelo)
+**Clayton / Caio / Victor**
+
+- GitHub: [@claytonmarcelo](https://github.com/claytonmarcelo)
 
 ---
 
