@@ -112,10 +112,10 @@ TemperatureConverter/
 
 ---
 
-## 👨‍💻 Desenvolvido por
+## 👨‍💻 Desenvolvidores por grupo Ovelhas negras
 
-**[SEU NOME]**
-- GitHub: [@SEU_USUARIO](https://github.com/SEU_USUARIO)
+**[Clayton Marcelo/ Caio/ Victor]**
+- GitHub: [@SEU_USUARIO](https://github.com/claytonmarcelo)
 
 ---
 
