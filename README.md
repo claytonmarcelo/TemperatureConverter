@@ -82,8 +82,8 @@ Instale o app **Expo Go** no celular e escaneie o QR Code gerado no terminal.
 TemperatureConverter/
 ├── app/
 │   ├── (tabs)/
-│   │   ├── _layout.tsx
-│   │   └── index.tsx
+│   ├── _layout.tsx
+│   ├── index.tsx
 │   └── _layout.tsx
 ├── assets/
 │   └── logo.png
